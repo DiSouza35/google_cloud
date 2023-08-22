@@ -52,4 +52,4 @@ metadata:
 description: Cloud Run PROD service
 requireApproval: true
 run:
- location: projects/_PROJECT_ID/locations/us-central1
+ location: projects/gcp-estudo-eng/locations/us-central1
