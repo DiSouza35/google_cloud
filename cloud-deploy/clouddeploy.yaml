@@ -16,7 +16,7 @@ metadata:
   name: qsdev
 description: development cluster
 gke:
-  cluster: projects/gcp-estudo-eng/locations/us-central1-c/clusters/cluster-dev
+  cluster: projects/gcp-estudo-eng/locations/us-central1-c/clusters/quickstart-cluster-qsdev
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -25,5 +25,5 @@ metadata:
   name: qsprod
 description: production cluster
 gke:
-  cluster: projects/gcp-estudo-eng/locations/us-central1-c/clusters/cluster-prod
+  cluster: projects/gcp-estudo-eng/locations/us-central1-c/clusters/quickstart-cluster-qsprod
 ---
